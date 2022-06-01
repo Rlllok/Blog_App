@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
+    'drf_yasg',
     'posts',
     'accounts',
     'comments',
@@ -136,3 +137,13 @@ REST_FRAMEWORK = {'DEFAULT_AUTHENTICATION_CLASSES': (
 
 # DEFAULT USER MODEL
 AUTH_USER_MODEL = 'accounts.User'
+
+SWAGGER_SETTINGS = {
+   'SECURITY_DEFINITIONS': {
+      'Bearer': {
+            'type': 'apiKey',
+            'name': 'Authorization',
+            'in': 'header'
+      }
+   }
+}
