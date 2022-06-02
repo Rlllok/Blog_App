@@ -39,12 +39,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'channels',
     'rest_framework',
     'corsheaders',
     'drf_yasg',
     'posts',
     'accounts',
     'comments',
+    'chat',
 ]
 
 MIDDLEWARE = [
@@ -77,6 +79,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'blog_backend.wsgi.application'
+ASGI_APPLICATION = 'blog_backend.asgi.application'
 
 
 # Database
@@ -146,4 +149,10 @@ SWAGGER_SETTINGS = {
             'in': 'header'
       }
    }
+}
+
+CHANNEL_LAYERS = {
+    "default": {
+        "BACKEND": "channels.layers.InMemoryChannelLayer"
+    }
 }
