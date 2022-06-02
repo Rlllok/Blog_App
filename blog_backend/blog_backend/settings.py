@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'accounts',
     'comments',
     'chat',
+    'tasks',
 ]
 
 MIDDLEWARE = [
@@ -153,6 +154,23 @@ SWAGGER_SETTINGS = {
 
 CHANNEL_LAYERS = {
     "default": {
-        "BACKEND": "channels.layers.InMemoryChannelLayer"
+        "BACKEND": "channels_redis.core.RedisChannelLayer",
+        "CONFIG": {
+            'hosts': [('127.0.0.1', 6379)]
+        }
     }
 }
+
+# Email settings
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'kykybb29@gmail.com'
+EMAIL_HOST_PASSWORD = 'tnjbinidqjvzxllb'
+EMAIL_PORT = 587
+
+# CELERY
+CELERY_BROKER_URL = 'redis://localhost:6379'
+
+CELERY_CREATE_MISSING_QUEUES = True

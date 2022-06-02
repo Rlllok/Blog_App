@@ -45,6 +45,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     email = models.EmailField(db_index=True, unique=True)
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
+    is_verified = models.BooleanField('verified', default=False)
     created_at = models.DateTimeField(auto_now_add=True, blank=True)
     updated_at = models.DateTimeField(auto_now=True)
     bio = models.TextField(null=True)
@@ -69,4 +70,17 @@ class User(AbstractBaseUser, PermissionsMixin):
         return self.full_name
 
     def get_username(self):
-        return self.username
+        return self.email
+
+    def __unicode__(self):
+        return self.email
+
+
+from django.db.models import signals
+from django.core.mail import send_mail
+from .tasks import send_welcome_email
+
+def user_post_save(sender, instance, signal, *args, **kwargs):
+    send_welcome_email.apply_async(args=(instance.pk), queue="email_queue")
+ 
+signals.post_save.connect(user_post_save, sender=User)

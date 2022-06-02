@@ -1,4 +1,5 @@
 from django.conf import settings
+from django.http import Http404
 from rest_framework import status
 from rest_framework.generics import RetrieveUpdateAPIView
 from rest_framework.permissions import AllowAny, IsAuthenticated
