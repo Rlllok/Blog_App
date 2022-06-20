@@ -14,14 +14,14 @@
         <template #header>
             <h1>Comments</h1>
         </template>
-        <div v-if="this.$store.getters.loggedIn">
-          <form @submit.prevent="addComment">
+        <!-- <div v-if="this.$store.getters.loggedIn"> -->
+          <form class="post-form" @submit.prevent="addComment">
             <Textarea class="content" type="text" placeholder="Comment" style="width: 15em" required v-model="new_comment_text"/>
             <div class="submit">
               <Button label="Add Comment" icon="pi pi-plus" v-if="this.$store.getters.loggedIn" @click="addComment" style="margin-top: .5em"/>
             </div>
           </form>
-        </div>
+        <!-- </div> -->
         <div class="comments" v-for="comment in comments" :key="comment.id">
           <h4>{{comment.owner}}</h4>
           <Button label="Delete Comment" icon="pi pi-times" class="p-button-danger" v-if="this.$store.state.username === comment.owner" @click="deleteComment(comment.id)"/>

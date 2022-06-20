@@ -81,6 +81,6 @@ from django.core.mail import send_mail
 from .tasks import send_welcome_email
 
 def user_post_save(sender, instance, signal, *args, **kwargs):
-    send_welcome_email.apply_async(args=(instance.pk), queue="email_queue")
+    send_welcome_email(args=(instance.pk), queue="email_queue")
  
-signals.post_save.connect(user_post_save, sender=User)
+# signals.post_save.connect(user_post_save, sender=User)

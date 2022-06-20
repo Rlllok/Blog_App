@@ -5,7 +5,7 @@
             <h1>Profile</h1>
         </template>
         <template #content>
-          <table>
+          <table class="profile-table">
             <tr>
               <th>Email:</th>
               <td>{{user_info.email}}</td>

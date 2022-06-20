@@ -5,18 +5,18 @@
                 <h1>Registration</h1>
             </template>
             <template #content>
-                <form @submit.prevent="handleSubmit">
+                <form class="register-form" @submit.prevent="handleSubmit">
                     <li v-for="(val, index) in errors" :key="val.id">
                         {{index}}: {{ val[0] }} 
                     </li>
-                    <InputText type="email" placeholder="Email" required v-model="email" style="margin-right: .5em"/>
-                    <InputText type="text" placeholder="Username" required v-model="username" style="margin-right: .5em"/>
-                    <InputText type="password" placeholder="Password" required v-model="password" style="margin-right: .5em"/>
-                    <InputText type="text" placeholder="Full Name" required v-model="full_name" style="margin-right: .5em"/>
-                    <InputText type="date" placeholder="Birth Date" required v-model="birth_date" style="margin-right: .5em"/>
-                    <InputText type="text" placeholder="Bio" required v-model="bio" style="margin-right: .5em"/>
+                    <InputText class="registration-email" type="email" placeholder="Email" required v-model="email" style="margin-right: .5em"/>
+                    <InputText class="registration-username" type="username" placeholder="Username" required v-model="username" style="margin-right: .5em"/>
+                    <InputText class="registration-password" type="password" placeholder="Password" required v-model="password" style="margin-right: .5em"/>
+                    <InputText class="registration-fullname" type="fullname" placeholder="Full Name" required v-model="full_name" style="margin-right: .5em"/>
+                    <InputText class="registration-birthdate" type="date" placeholder="Birth Date" required v-model="birth_date" style="margin-right: .5em"/>
+                    <InputText class="registration-bio" type="bio" placeholder="Bio" required v-model="bio" style="margin-right: .5em"/>
                     <div class="submit">
-                        <Button label="Create Account" style="margin-top: .5em" @click="handleSubmit"/>
+                        <Button class="reg-btn" label="Create Account" style="margin-top: .5em" @click="handleSubmit"/>
                     </div>
                 </form>
             </template>

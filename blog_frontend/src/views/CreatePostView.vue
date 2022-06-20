@@ -6,9 +6,9 @@
             </template>
             <template #content>
                 <p v-if="error_text">{{error_text}}</p>
-                <form>
+                <form class="createpost-form">
                     <div>
-                        <InputText type="text" placeholder="Title" required v-model="title" style="margin-bottom: .5em"/>
+                        <InputText class="title" type="title" placeholder="Title" required v-model="title" style="margin-bottom: .5em"/>
                     </div>
                     <div>
                         <Textarea class="content" type="text" placeholder="Content" required v-model="content"/>

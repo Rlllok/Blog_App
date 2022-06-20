@@ -6,10 +6,15 @@
 <script>
   export default {
     created () {
-      this.$store.dispatch('userLogout')
+      this.logout()
+    },
+    methods: {
+      logout() {
+        this.$store.dispatch('userLogout')
         .then(() => {
-          this.$router.push({ name: 'Login' })
+          // this.$router.push({ name: 'Login' })
         })
+      }
     }
   }
 </script>

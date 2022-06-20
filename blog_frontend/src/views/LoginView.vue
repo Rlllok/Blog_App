@@ -6,11 +6,11 @@
             </template>
             <template #content>
                 <p v-if="error_text">{{error_text}}</p>
-                <form>
-                    <InputText type="email" placeholder="Email" required v-model="email" style="margin-right: .5em"/>
-                    <InputText type="password" placeholder="Password" required v-model="password"/>
+                <form class="login-form">
+                    <InputText class="login-email" type="email" placeholder="Email" required v-model="email" style="margin-right: .5em"/>
+                    <InputText class="login-password" type="password" placeholder="Password" required v-model="password"/>
                 <div class="submit">
-                    <Button label="Log In" style="margin-top: .5em" @click="login"/>
+                    <Button class="submit-button" label="Log In" style="margin-top: .5em" @click="login"/>
                 </div>
                 </form>
             </template>

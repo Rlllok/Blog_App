@@ -1,0 +1,2540 @@
+{
+  "/home/rlllok/Documents/django_vue/blog_frontend/src/App.vue": {
+    "path": "/home/rlllok/Documents/django_vue/blog_frontend/src/App.vue",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 8,
+          "column": 2
+        },
+        "end": {
+          "line": 17,
+          "column": 3
+        }
+      },
+      "1": {
+        "start": {
+          "line": 12,
+          "column": 69
+        },
+        "end": {
+          "line": 12,
+          "column": 98
+        }
+      },
+      "2": {
+        "start": {
+          "line": 13,
+          "column": 83
+        },
+        "end": {
+          "line": 13,
+          "column": 112
+        }
+      },
+      "3": {
+        "start": {
+          "line": 14,
+          "column": 73
+        },
+        "end": {
+          "line": 14,
+          "column": 101
+        }
+      },
+      "4": {
+        "start": {
+          "line": 15,
+          "column": 71
+        },
+        "end": {
+          "line": 15,
+          "column": 99
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 2
+          },
+          "end": {
+            "line": 7,
+            "column": 3
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 9
+          },
+          "end": {
+            "line": 18,
+            "column": 2
+          }
+        },
+        "line": 7
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 63
+          },
+          "end": {
+            "line": 12,
+            "column": 64
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 69
+          },
+          "end": {
+            "line": 12,
+            "column": 98
+          }
+        },
+        "line": 12
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 77
+          },
+          "end": {
+            "line": 13,
+            "column": 78
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 83
+          },
+          "end": {
+            "line": 13,
+            "column": 112
+          }
+        },
+        "line": 13
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 14,
+            "column": 67
+          },
+          "end": {
+            "line": 14,
+            "column": 68
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 73
+          },
+          "end": {
+            "line": 14,
+            "column": 101
+          }
+        },
+        "line": 14
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 15,
+            "column": 65
+          },
+          "end": {
+            "line": 15,
+            "column": 66
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 71
+          },
+          "end": {
+            "line": 15,
+            "column": 99
+          }
+        },
+        "line": 15
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 438,
+      "1": 1314,
+      "2": 1314,
+      "3": 876,
+      "4": 876
+    },
+    "f": {
+      "0": 438,
+      "1": 1314,
+      "2": 1314,
+      "3": 876,
+      "4": 876
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "/home/rlllok/Documents/django_vue/blog_frontend/src/App.vue"
+      ],
+      "names": [],
+      "mappings": "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",
+      "file": "/home/rlllok/Documents/django_vue/blog_frontend/src/App.vue",
+      "sourceRoot": "",
+      "sourcesContent": [
+        "<template>\n<Menubar class=\"bar\" :model=\"items\">\n</Menubar>\n<router-view />\n</template>\n\n<script>\nimport Menubar from 'primevue/menubar'\n\nexport default {\n  name: 'App',\n\n  data() {\n\t\treturn {\n\t\t\titems: [\n                {label: 'Home', to: {name: \"Home\"}},\n                {label: 'About', to: {name: \"About\"}},  \n                {label: 'Login', to: {name: \"Login\"}, visible: () => !this.$store.getters.loggedIn},\n                {label: 'Registration', to: {name: \"Registration\"}, visible: () => !this.$store.getters.loggedIn},\n                {label: 'Profile', to: {name: \"Profile\"}, visible: () => this.$store.getters.loggedIn},\n                {label: 'Logout', to: {name: \"Logout\"}, visible: () => this.$store.getters.loggedIn},\n            ]\n\t\t}\n\t},\n\n  components: {\n    Menubar,\n  }\n}\n\n</script>\n\n<style>\n#app {\n  font-family: Avenir, Helvetica, Arial, sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  margin-top: 10px;\n}\n\nbody {\n  margin-top: 20px;\n}\n</style>\n"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "90df7f22885c3236ea0a6fd83bf4cb7d9ae3bada"
+  },
+  "/home/rlllok/Documents/django_vue/blog_frontend/src/views/HomeView.vue": {
+    "path": "/home/rlllok/Documents/django_vue/blog_frontend/src/views/HomeView.vue",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 12,
+          "column": 4
+        },
+        "end": {
+          "line": 14,
+          "column": 5
+        }
+      },
+      "1": {
+        "start": {
+          "line": 18,
+          "column": 4
+        },
+        "end": {
+          "line": 18,
+          "column": 21
+        }
+      },
+      "2": {
+        "start": {
+          "line": 23,
+          "column": 6
+        },
+        "end": {
+          "line": 23,
+          "column": 69
+        }
+      },
+      "3": {
+        "start": {
+          "line": 23,
+          "column": 42
+        },
+        "end": {
+          "line": 23,
+          "column": 68
+        }
+      },
+      "4": {
+        "start": {
+          "line": 26,
+          "column": 6
+        },
+        "end": {
+          "line": 26,
+          "column": 45
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 11,
+            "column": 2
+          },
+          "end": {
+            "line": 11,
+            "column": 3
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 10
+          },
+          "end": {
+            "line": 15,
+            "column": 3
+          }
+        },
+        "line": 11
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 17,
+            "column": 2
+          },
+          "end": {
+            "line": 17,
+            "column": 3
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 12
+          },
+          "end": {
+            "line": 19,
+            "column": 3
+          }
+        },
+        "line": 17
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 22,
+            "column": 4
+          },
+          "end": {
+            "line": 22,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 16
+          },
+          "end": {
+            "line": 24,
+            "column": 5
+          }
+        },
+        "line": 22
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 23,
+            "column": 30
+          },
+          "end": {
+            "line": 23,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 42
+          },
+          "end": {
+            "line": 23,
+            "column": 68
+          }
+        },
+        "line": 23
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 25,
+            "column": 4
+          },
+          "end": {
+            "line": 25,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 25,
+            "column": 17
+          },
+          "end": {
+            "line": 27,
+            "column": 5
+          }
+        },
+        "line": 25
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 17,
+      "1": 17,
+      "2": 17,
+      "3": 17,
+      "4": 0
+    },
+    "f": {
+      "0": 17,
+      "1": 17,
+      "2": 17,
+      "3": 17,
+      "4": 0
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "/home/rlllok/Documents/django_vue/blog_frontend/src/views/HomeView.vue"
+      ],
+      "names": [],
+      "mappings": ";AAoBA,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;;AAE/B,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;EACb,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IACN,CAAC,CAAC,CAAC,CAAC;EACN,CAAC;EACD,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE;IACN,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;MACL,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC;IACX;EACF,CAAC;;EAED,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC;IACR,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;EAClB,CAAC;;EAED,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;MACV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IAChE,CAAC;IACD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;MACX,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IACxC;EACF;AACF",
+      "file": "/home/rlllok/Documents/django_vue/blog_frontend/src/views/HomeView.vue",
+      "sourceRoot": "",
+      "sourcesContent": [
+        "<template>\n  <body>\n    <Card>\n        <template #title>\n            <h1>Posts</h1>\n            <Button label=\"New Post\" icon=\"pi pi-plus\" v-if=\"this.$store.getters.loggedIn\" @click=\"createPost\"/>\n        </template>\n        <template #content>\n            <div v-for=\"post in posts\" :key=\"post.id\">\n            <router-link :to=\"{name: 'PostDetails', params: {post_id: post.id}}\">\n                <h2>{{post.title}}</h2>\n            </router-link>\n                <h4>Author: {{post.owner}}</h4>\n            </div>\n        </template>\n    </Card>\n  </body>\n</template>\n\n<script>\nimport {getAPI} from '../backend_api'\nimport Button from 'primevue/button'\nimport Card from 'primevue/card'\n\nexport default {\n  components: {\n    Button,\n    Card,\n  },\n  data () {\n    return {\n      posts: [],\n    }\n  },\n  \n  mounted (){\n    this.get_Posts();\n  },\n\n  methods: {\n    get_Posts() {\n      getAPI('/posts/',).then(response => this.posts = response.data)\n    },\n    createPost() {\n      this.$router.push({name: \"CreatePost\"})\n    }\n  }\n}\n\n</script>\n"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "1a39427af79f9d7ba4cdca9c2bfa4e1cb8381574"
+  },
+  "/home/rlllok/Documents/django_vue/blog_frontend/src/backend_api.js": {
+    "path": "/home/rlllok/Documents/django_vue/blog_frontend/src/backend_api.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 15
+        },
+        "end": {
+          "line": 6,
+          "column": 2
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 438
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "51a080cd6911d8a9b25d80a66d963e7fe67b9a5b"
+  },
+  "/home/rlllok/Documents/django_vue/blog_frontend/src/views/PostDetailsView.vue": {
+    "path": "/home/rlllok/Documents/django_vue/blog_frontend/src/views/PostDetailsView.vue",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 16,
+          "column": 4
+        },
+        "end": {
+          "line": 21,
+          "column": 5
+        }
+      },
+      "1": {
+        "start": {
+          "line": 24,
+          "column": 4
+        },
+        "end": {
+          "line": 24,
+          "column": 27
+        }
+      },
+      "2": {
+        "start": {
+          "line": 25,
+          "column": 4
+        },
+        "end": {
+          "line": 25,
+          "column": 28
+        }
+      },
+      "3": {
+        "start": {
+          "line": 30,
+          "column": 6
+        },
+        "end": {
+          "line": 30,
+          "column": 84
+        }
+      },
+      "4": {
+        "start": {
+          "line": 30,
+          "column": 58
+        },
+        "end": {
+          "line": 30,
+          "column": 83
+        }
+      },
+      "5": {
+        "start": {
+          "line": 33,
+          "column": 6
+        },
+        "end": {
+          "line": 33,
+          "column": 97
+        }
+      },
+      "6": {
+        "start": {
+          "line": 33,
+          "column": 67
+        },
+        "end": {
+          "line": 33,
+          "column": 96
+        }
+      },
+      "7": {
+        "start": {
+          "line": 36,
+          "column": 6
+        },
+        "end": {
+          "line": 41,
+          "column": 8
+        }
+      },
+      "8": {
+        "start": {
+          "line": 37,
+          "column": 8
+        },
+        "end": {
+          "line": 37,
+          "column": 29
+        }
+      },
+      "9": {
+        "start": {
+          "line": 38,
+          "column": 8
+        },
+        "end": {
+          "line": 38,
+          "column": 41
+        }
+      },
+      "10": {
+        "start": {
+          "line": 40,
+          "column": 10
+        },
+        "end": {
+          "line": 40,
+          "column": 28
+        }
+      },
+      "11": {
+        "start": {
+          "line": 44,
+          "column": 6
+        },
+        "end": {
+          "line": 50,
+          "column": 8
+        }
+      },
+      "12": {
+        "start": {
+          "line": 45,
+          "column": 8
+        },
+        "end": {
+          "line": 45,
+          "column": 29
+        }
+      },
+      "13": {
+        "start": {
+          "line": 46,
+          "column": 8
+        },
+        "end": {
+          "line": 46,
+          "column": 31
+        }
+      },
+      "14": {
+        "start": {
+          "line": 47,
+          "column": 8
+        },
+        "end": {
+          "line": 47,
+          "column": 32
+        }
+      },
+      "15": {
+        "start": {
+          "line": 49,
+          "column": 10
+        },
+        "end": {
+          "line": 49,
+          "column": 28
+        }
+      },
+      "16": {
+        "start": {
+          "line": 53,
+          "column": 6
+        },
+        "end": {
+          "line": 62,
+          "column": 8
+        }
+      },
+      "17": {
+        "start": {
+          "line": 57,
+          "column": 10
+        },
+        "end": {
+          "line": 57,
+          "column": 32
+        }
+      },
+      "18": {
+        "start": {
+          "line": 58,
+          "column": 10
+        },
+        "end": {
+          "line": 58,
+          "column": 33
+        }
+      },
+      "19": {
+        "start": {
+          "line": 59,
+          "column": 10
+        },
+        "end": {
+          "line": 59,
+          "column": 34
+        }
+      },
+      "20": {
+        "start": {
+          "line": 61,
+          "column": 10
+        },
+        "end": {
+          "line": 61,
+          "column": 28
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 15,
+            "column": 2
+          },
+          "end": {
+            "line": 15,
+            "column": 3
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 10
+          },
+          "end": {
+            "line": 22,
+            "column": 3
+          }
+        },
+        "line": 15
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 23,
+            "column": 2
+          },
+          "end": {
+            "line": 23,
+            "column": 3
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 12
+          },
+          "end": {
+            "line": 26,
+            "column": 3
+          }
+        },
+        "line": 23
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 29,
+            "column": 4
+          },
+          "end": {
+            "line": 29,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 29,
+            "column": 23
+          },
+          "end": {
+            "line": 31,
+            "column": 5
+          }
+        },
+        "line": 29
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 30,
+            "column": 46
+          },
+          "end": {
+            "line": 30,
+            "column": 47
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 58
+          },
+          "end": {
+            "line": 30,
+            "column": 83
+          }
+        },
+        "line": 30
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 32,
+            "column": 4
+          },
+          "end": {
+            "line": 32,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 32,
+            "column": 23
+          },
+          "end": {
+            "line": 34,
+            "column": 5
+          }
+        },
+        "line": 32
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 33,
+            "column": 55
+          },
+          "end": {
+            "line": 33,
+            "column": 56
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 33,
+            "column": 67
+          },
+          "end": {
+            "line": 33,
+            "column": 96
+          }
+        },
+        "line": 33
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 35,
+            "column": 4
+          },
+          "end": {
+            "line": 35,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 35,
+            "column": 16
+          },
+          "end": {
+            "line": 42,
+            "column": 5
+          }
+        },
+        "line": 35
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": {
+            "line": 36,
+            "column": 128
+          },
+          "end": {
+            "line": 36,
+            "column": 129
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 36,
+            "column": 140
+          },
+          "end": {
+            "line": 39,
+            "column": 7
+          }
+        },
+        "line": 36
+      },
+      "8": {
+        "name": "(anonymous_8)",
+        "decl": {
+          "start": {
+            "line": 39,
+            "column": 15
+          },
+          "end": {
+            "line": 39,
+            "column": 16
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 39,
+            "column": 24
+          },
+          "end": {
+            "line": 41,
+            "column": 7
+          }
+        },
+        "line": 39
+      },
+      "9": {
+        "name": "(anonymous_9)",
+        "decl": {
+          "start": {
+            "line": 43,
+            "column": 4
+          },
+          "end": {
+            "line": 43,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 43,
+            "column": 21
+          },
+          "end": {
+            "line": 51,
+            "column": 5
+          }
+        },
+        "line": 43
+      },
+      "10": {
+        "name": "(anonymous_10)",
+        "decl": {
+          "start": {
+            "line": 44,
+            "column": 121
+          },
+          "end": {
+            "line": 44,
+            "column": 122
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 44,
+            "column": 133
+          },
+          "end": {
+            "line": 48,
+            "column": 7
+          }
+        },
+        "line": 44
+      },
+      "11": {
+        "name": "(anonymous_11)",
+        "decl": {
+          "start": {
+            "line": 48,
+            "column": 15
+          },
+          "end": {
+            "line": 48,
+            "column": 16
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 48,
+            "column": 24
+          },
+          "end": {
+            "line": 50,
+            "column": 7
+          }
+        },
+        "line": 48
+      },
+      "12": {
+        "name": "(anonymous_12)",
+        "decl": {
+          "start": {
+            "line": 52,
+            "column": 4
+          },
+          "end": {
+            "line": 52,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 52,
+            "column": 17
+          },
+          "end": {
+            "line": 63,
+            "column": 5
+          }
+        },
+        "line": 52
+      },
+      "13": {
+        "name": "(anonymous_13)",
+        "decl": {
+          "start": {
+            "line": 56,
+            "column": 88
+          },
+          "end": {
+            "line": 56,
+            "column": 89
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 56,
+            "column": 100
+          },
+          "end": {
+            "line": 60,
+            "column": 7
+          }
+        },
+        "line": 56
+      },
+      "14": {
+        "name": "(anonymous_14)",
+        "decl": {
+          "start": {
+            "line": 60,
+            "column": 15
+          },
+          "end": {
+            "line": 60,
+            "column": 16
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 60,
+            "column": 24
+          },
+          "end": {
+            "line": 62,
+            "column": 7
+          }
+        },
+        "line": 60
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 72,
+      "1": 72,
+      "2": 72,
+      "3": 72,
+      "4": 53,
+      "5": 72,
+      "6": 52,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0
+    },
+    "f": {
+      "0": 72,
+      "1": 72,
+      "2": 72,
+      "3": 53,
+      "4": 72,
+      "5": 52,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "/home/rlllok/Documents/django_vue/blog_frontend/src/views/PostDetailsView.vue"
+      ],
+      "names": [],
+      "mappings": "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CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;MACjB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IAC5F,CAAC;IACD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;MACV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAA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",
+      "file": "/home/rlllok/Documents/django_vue/blog_frontend/src/views/PostDetailsView.vue",
+      "sourceRoot": "",
+      "sourcesContent": [
+        "<template>\n  <body>\n    <Card>\n      <template #title>\n          <h2>{{data.title}}</h2>\n          <h4>Author: {{data.owner}}</h4>\n          <Button label=\"Delete Post\" icon=\"pi pi-times\" class=\"p-button-danger\" v-if=\"this.$store.state.username === data.owner\" @click=\"deletePost\" />\n      </template>\n      <template #content>\n          <p>{{data.content}}</p>\n      </template>\n      <template #footer>\n      <Panel style=\"margin-top: .5em\">\n        <template #header>\n            <h1>Comments</h1>\n        </template>\n        <!-- <div v-if=\"this.$store.getters.loggedIn\"> -->\n          <form class=\"post-form\" @submit.prevent=\"addComment\">\n            <Textarea class=\"content\" type=\"text\" placeholder=\"Comment\" style=\"width: 15em\" required v-model=\"new_comment_text\"/>\n            <div class=\"submit\">\n              <Button label=\"Add Comment\" icon=\"pi pi-plus\" v-if=\"this.$store.getters.loggedIn\" @click=\"addComment\" style=\"margin-top: .5em\"/>\n            </div>\n          </form>\n        <!-- </div> -->\n        <div class=\"comments\" v-for=\"comment in comments\" :key=\"comment.id\">\n          <h4>{{comment.owner}}</h4>\n          <Button label=\"Delete Comment\" icon=\"pi pi-times\" class=\"p-button-danger\" v-if=\"this.$store.state.username === comment.owner\" @click=\"deleteComment(comment.id)\"/>\n          <p>{{comment.text}}</p>\n        </div>\n      </Panel>\n      </template>\n    </Card>\n  </body>\n</template>\n\n<script>\nimport {getAPI} from '../backend_api'\nimport Textarea from 'primevue/textarea'\nimport Button from 'primevue/button'\nimport Panel from 'primevue/panel'\nimport Card from 'primevue/card'\n\nexport default {\n  components: {\n    Button,\n    Card,\n    Panel,\n    Textarea,\n  },\n  data () {\n    return {\n      data: \"\",\n      post_id: this.$route.params.post_id,\n      comments: [],\n      new_comment_text: \"\",\n    }\n  },\n  mounted (){\n    this.get_PostDetails();\n    this.get_CommentsData();\n  },\n\n  methods: {\n    get_PostDetails () {\n      getAPI('/posts/'+this.post_id+'/').then(response => this.data = response.data)\n    },\n    get_CommentsData() {\n      getAPI('/posts/'+this.post_id+'/comments/').then(response => this.comments = response.data)\n    },\n    deletePost(){\n      getAPI.delete('/posts/'+this.post_id+'/', { headers: { Authorization: `Bearer ${this.$store.state.accessToken}` } }).then(response => {\n        console.log(response)\n        this.$router.push({name: \"Home\"})\n      }).catch(error => {\n          console.log(error)\n      })\n    },\n    deleteComment(id){\n      getAPI.delete('/comments/'+id+'/', { headers: { Authorization: `Bearer ${this.$store.state.accessToken}` } }).then(response => {\n        console.log(response)\n        this.get_PostDetails();\n        this.get_CommentsData();\n      }).catch(error => {\n          console.log(error)\n      })\n    },\n    addComment() {\n      getAPI.post('/comments/', {\n          text: this.new_comment_text,\n          post: this.post_id\n      },{ headers: { Authorization: `Bearer ${this.$store.state.accessToken}` } }).then(response => {\n          console.log(response);\n          this.get_PostDetails();\n          this.get_CommentsData();\n      }).catch(error => {\n          console.log(error)\n      })\n    }\n  }\n}\n\n</script>\n\n<style scoped>\n\n</style>"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "8b2472bdd19023a54d4ff56a248c3690a22d9b5f"
+  },
+  "/home/rlllok/Documents/django_vue/blog_frontend/src/views/AboutView.vue": {
+    "path": "/home/rlllok/Documents/django_vue/blog_frontend/src/views/AboutView.vue",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "/home/rlllok/Documents/django_vue/blog_frontend/src/views/AboutView.vue"
+      ],
+      "names": [],
+      "mappings": ";AAmBA,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;;AAE/B,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;;IAEX,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;QACR,CAAC,CAAC,CAAC,CAAC;IACR,CAAC;AACL",
+      "file": "/home/rlllok/Documents/django_vue/blog_frontend/src/views/AboutView.vue",
+      "sourceRoot": "",
+      "sourcesContent": [
+        "<template>\n  <body>\n    <Card>\n        <template #title>\n            <h1>About</h1>\n        </template>\n        <template #content>\n            <img src=\"../assets/logo.png\">\n            <p>\n                Додаток в якому можно створювати та видаляти пости. Також реалізована можливість коментувати кожен пост.\n                Для створення постів та коментарів потрібно бути авторизованим.\n            </p>\n            <h5>Виконав: Новіков О.О. КВ-11мн</h5>\n        </template>\n    </Card>\n  </body>\n</template>\n\n<script>\nimport Card from 'primevue/card'\n\nexport default {\n\n    components: {\n        Card,\n    },\n}\n</script>"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "ccfc23e2c03517bedbd1ff93a8f2ecf354fc485d"
+  },
+  "/home/rlllok/Documents/django_vue/blog_frontend/src/views/LoginView.vue": {
+    "path": "/home/rlllok/Documents/django_vue/blog_frontend/src/views/LoginView.vue",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 13,
+          "column": 8
+        },
+        "end": {
+          "line": 17,
+          "column": 9
+        }
+      },
+      "1": {
+        "start": {
+          "line": 22,
+          "column": 12
+        },
+        "end": {
+          "line": 30,
+          "column": 14
+        }
+      },
+      "2": {
+        "start": {
+          "line": 26,
+          "column": 16
+        },
+        "end": {
+          "line": 26,
+          "column": 49
+        }
+      },
+      "3": {
+        "start": {
+          "line": 28,
+          "column": 16
+        },
+        "end": {
+          "line": 28,
+          "column": 73
+        }
+      },
+      "4": {
+        "start": {
+          "line": 29,
+          "column": 16
+        },
+        "end": {
+          "line": 29,
+          "column": 34
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 4
+          },
+          "end": {
+            "line": 12,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 11
+          },
+          "end": {
+            "line": 18,
+            "column": 5
+          }
+        },
+        "line": 12
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 21,
+            "column": 8
+          },
+          "end": {
+            "line": 21,
+            "column": 9
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 16
+          },
+          "end": {
+            "line": 31,
+            "column": 9
+          }
+        },
+        "line": 21
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 25,
+            "column": 20
+          },
+          "end": {
+            "line": 25,
+            "column": 21
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 25,
+            "column": 26
+          },
+          "end": {
+            "line": 27,
+            "column": 13
+          }
+        },
+        "line": 25
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 27,
+            "column": 21
+          },
+          "end": {
+            "line": 27,
+            "column": 22
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 27,
+            "column": 30
+          },
+          "end": {
+            "line": 30,
+            "column": 13
+          }
+        },
+        "line": 27
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 66,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    "f": {
+      "0": 66,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "/home/rlllok/Documents/django_vue/blog_frontend/src/views/LoginView.vue"
+      ],
+      "names": [],
+      "mappings": "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",
+      "file": "/home/rlllok/Documents/django_vue/blog_frontend/src/views/LoginView.vue",
+      "sourceRoot": "",
+      "sourcesContent": [
+        "<template>\n    <body>\n        <Card>\n            <template #title>\n                <h1>Log In</h1>\n            </template>\n            <template #content>\n                <p v-if=\"error_text\">{{error_text}}</p>\n                <form class=\"login-form\">\n                    <InputText class=\"login-email\" type=\"email\" placeholder=\"Email\" required v-model=\"email\" style=\"margin-right: .5em\"/>\n                    <InputText class=\"login-password\" type=\"password\" placeholder=\"Password\" required v-model=\"password\"/>\n                <div class=\"submit\">\n                    <Button class=\"submit-button\" label=\"Log In\" style=\"margin-top: .5em\" @click=\"login\"/>\n                </div>\n                </form>\n            </template>\n        </Card>\n    </body>\n</template>\n\n\n\n<script>\nimport InputText from 'primevue/inputtext'\nimport Card from 'primevue/card'\nimport Button from 'primevue/button'\n\nexport default {\n    components: {\n        InputText,\n        Card,\n        Button,\n    },\n    data() {\n        return {\n            email: \"\",\n            password: \"\",\n            error_text: \"\",\n        }\n    },\n\n    methods: {\n        login() {\n            this.$store.dispatch('userLogin', {\n                email: this.email,\n                password: this.password,\n            }).then(() => {\n                this.$router.push({name: 'Home'})\n            }).catch(error => {\n                this.error_text = error.response.data.non_field_errors[0]\n                console.log(error)\n            })\n        }\n    }\n}\n</script>\n\n\n<style scoped>\n\n</style>"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "a44f7efbc43161d2f83c7a7c2f028ad1749a71ba"
+  },
+  "/home/rlllok/Documents/django_vue/blog_frontend/src/views/LogoutView.vue": {
+    "path": "/home/rlllok/Documents/django_vue/blog_frontend/src/views/LogoutView.vue",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 6
+        },
+        "end": {
+          "line": 4,
+          "column": 19
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 8
+        },
+        "end": {
+          "line": 11,
+          "column": 10
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 4
+          },
+          "end": {
+            "line": 3,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 15
+          },
+          "end": {
+            "line": 5,
+            "column": 5
+          }
+        },
+        "line": 3
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 6
+          },
+          "end": {
+            "line": 7,
+            "column": 7
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 15
+          },
+          "end": {
+            "line": 12,
+            "column": 7
+          }
+        },
+        "line": 7
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 14
+          },
+          "end": {
+            "line": 9,
+            "column": 15
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 20
+          },
+          "end": {
+            "line": 11,
+            "column": 9
+          }
+        },
+        "line": 9
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 18,
+      "1": 18
+    },
+    "f": {
+      "0": 18,
+      "1": 18,
+      "2": 18
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "/home/rlllok/Documents/django_vue/blog_frontend/src/views/LogoutView.vue"
+      ],
+      "names": [],
+      "mappings": ";EAME,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACb,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE;MACT,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IACd,CAAC;IACD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;MACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;QACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;QACjC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE;UACV,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC;QACxC,CAAC;MACH;IACF;EACF",
+      "file": "/home/rlllok/Documents/django_vue/blog_frontend/src/views/LogoutView.vue",
+      "sourceRoot": "",
+      "sourcesContent": [
+        "<template>\n  <div class=\"log\">\n  </div>\n</template>\n\n<script>\n  export default {\n    created () {\n      this.logout()\n    },\n    methods: {\n      logout() {\n        this.$store.dispatch('userLogout')\n        .then(() => {\n          // this.$router.push({ name: 'Login' })\n        })\n      }\n    }\n  }\n</script>\n\n<style>\n</style>"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "ce8b2f1261f89bc43ee921f3d080bec8b12d78f3"
+  },
+  "/home/rlllok/Documents/django_vue/blog_frontend/src/views/RegistrationView.vue": {
+    "path": "/home/rlllok/Documents/django_vue/blog_frontend/src/views/RegistrationView.vue",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 14,
+          "column": 8
+        },
+        "end": {
+          "line": 22,
+          "column": 9
+        }
+      },
+      "1": {
+        "start": {
+          "line": 27,
+          "column": 12
+        },
+        "end": {
+          "line": 39,
+          "column": 14
+        }
+      },
+      "2": {
+        "start": {
+          "line": 35,
+          "column": 16
+        },
+        "end": {
+          "line": 35,
+          "column": 43
+        }
+      },
+      "3": {
+        "start": {
+          "line": 37,
+          "column": 16
+        },
+        "end": {
+          "line": 37,
+          "column": 49
+        }
+      },
+      "4": {
+        "start": {
+          "line": 38,
+          "column": 16
+        },
+        "end": {
+          "line": 38,
+          "column": 34
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 4
+          },
+          "end": {
+            "line": 13,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 11
+          },
+          "end": {
+            "line": 23,
+            "column": 5
+          }
+        },
+        "line": 13
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 26,
+            "column": 8
+          },
+          "end": {
+            "line": 26,
+            "column": 9
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 26,
+            "column": 23
+          },
+          "end": {
+            "line": 40,
+            "column": 9
+          }
+        },
+        "line": 26
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 34,
+            "column": 20
+          },
+          "end": {
+            "line": 34,
+            "column": 21
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 34,
+            "column": 32
+          },
+          "end": {
+            "line": 36,
+            "column": 13
+          }
+        },
+        "line": 34
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 36,
+            "column": 21
+          },
+          "end": {
+            "line": 36,
+            "column": 22
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 36,
+            "column": 30
+          },
+          "end": {
+            "line": 39,
+            "column": 13
+          }
+        },
+        "line": 36
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 53,
+      "1": 2,
+      "2": 0,
+      "3": 2,
+      "4": 2
+    },
+    "f": {
+      "0": 53,
+      "1": 2,
+      "2": 0,
+      "3": 2
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "/home/rlllok/Documents/django_vue/blog_frontend/src/views/RegistrationView.vue"
+      ],
+      "names": [],
+      "mappings": "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",
+      "file": "/home/rlllok/Documents/django_vue/blog_frontend/src/views/RegistrationView.vue",
+      "sourceRoot": "",
+      "sourcesContent": [
+        "<template>\n    <body>\n        <Card>\n            <template #title>\n                <h1>Registration</h1>\n            </template>\n            <template #content>\n                <form class=\"register-form\" @submit.prevent=\"handleSubmit\">\n                    <li v-for=\"(val, index) in errors\" :key=\"val.id\">\n                        {{index}}: {{ val[0] }} \n                    </li>\n                    <InputText class=\"registration-email\" type=\"email\" placeholder=\"Email\" required v-model=\"email\" style=\"margin-right: .5em\"/>\n                    <InputText class=\"registration-username\" type=\"username\" placeholder=\"Username\" required v-model=\"username\" style=\"margin-right: .5em\"/>\n                    <InputText class=\"registration-password\" type=\"password\" placeholder=\"Password\" required v-model=\"password\" style=\"margin-right: .5em\"/>\n                    <InputText class=\"registration-fullname\" type=\"fullname\" placeholder=\"Full Name\" required v-model=\"full_name\" style=\"margin-right: .5em\"/>\n                    <InputText class=\"registration-birthdate\" type=\"date\" placeholder=\"Birth Date\" required v-model=\"birth_date\" style=\"margin-right: .5em\"/>\n                    <InputText class=\"registration-bio\" type=\"bio\" placeholder=\"Bio\" required v-model=\"bio\" style=\"margin-right: .5em\"/>\n                    <div class=\"submit\">\n                        <Button class=\"reg-btn\" label=\"Create Account\" style=\"margin-top: .5em\" @click=\"handleSubmit\"/>\n                    </div>\n                </form>\n            </template>\n        </Card>\n    </body>\n</template>\n\n\n<script>\nimport {getAPI} from '../backend_api'\nimport InputText from 'primevue/inputtext'\nimport Card from 'primevue/card'\nimport Button from 'primevue/button'\n\nexport default {\n    components: {\n        InputText,\n        Card,\n        Button,\n    },\n    data() {\n        return {\n            email: \"\",\n            username: \"\",\n            password: \"\",\n            full_name: \"\",\n            birth_date: \"\",\n            bio: \"\",\n            errors: {},\n        }\n    },\n\n    methods: {\n        handleSubmit() {\n            getAPI.post('/api/register/', {\n                email: this.email,\n                username: this.username,\n                password: this.password,\n                full_name: this.full_name,\n                birth_date: this.birth_date,\n                bio: this.bio,\n            }).then(response => {\n                console.log(response.data);\n            }).catch(error => {\n                this.errors = error.response.data\n                console.log(error)\n            })\n        }\n    }\n}\n</script>\n\n\n<style scoped>\n\n</style>"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "4f04029e84633e8036a5ce2247a1dc81ee658e9b"
+  },
+  "/home/rlllok/Documents/django_vue/blog_frontend/src/views/ProfileView.vue": {
+    "path": "/home/rlllok/Documents/django_vue/blog_frontend/src/views/ProfileView.vue",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 10,
+          "column": 4
+        },
+        "end": {
+          "line": 12,
+          "column": 5
+        }
+      },
+      "1": {
+        "start": {
+          "line": 16,
+          "column": 4
+        },
+        "end": {
+          "line": 16,
+          "column": 25
+        }
+      },
+      "2": {
+        "start": {
+          "line": 21,
+          "column": 8
+        },
+        "end": {
+          "line": 23,
+          "column": 55
+        }
+      },
+      "3": {
+        "start": {
+          "line": 23,
+          "column": 24
+        },
+        "end": {
+          "line": 23,
+          "column": 54
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 2
+          },
+          "end": {
+            "line": 9,
+            "column": 3
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 10
+          },
+          "end": {
+            "line": 13,
+            "column": 3
+          }
+        },
+        "line": 9
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 15,
+            "column": 2
+          },
+          "end": {
+            "line": 15,
+            "column": 3
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 12
+          },
+          "end": {
+            "line": 17,
+            "column": 3
+          }
+        },
+        "line": 15
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 20,
+            "column": 4
+          },
+          "end": {
+            "line": 20,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 21
+          },
+          "end": {
+            "line": 24,
+            "column": 5
+          }
+        },
+        "line": 20
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 23,
+            "column": 12
+          },
+          "end": {
+            "line": 23,
+            "column": 13
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 24
+          },
+          "end": {
+            "line": 23,
+            "column": 54
+          }
+        },
+        "line": 23
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 74,
+      "1": 74,
+      "2": 74,
+      "3": 56
+    },
+    "f": {
+      "0": 74,
+      "1": 74,
+      "2": 74,
+      "3": 56
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "/home/rlllok/Documents/django_vue/blog_frontend/src/views/ProfileView.vue"
+      ],
+      "names": [],
+      "mappings": ";AAmCA,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;;AAE/B,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;EACb,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACV,CAAC,CAAC,CAAC,CAAC;EACN,CAAC;EACD,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE;IACN,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;MACL,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC;IACf;EACF,CAAC;;EAED,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC;IACR,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;EACtB,CAAC;;EAED,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACP,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE;QACb,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;QACnB,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,EAAE,CAAC;MAChU,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IAClD;EACF;AACF",
+      "file": "/home/rlllok/Documents/django_vue/blog_frontend/src/views/ProfileView.vue",
+      "sourceRoot": "",
+      "sourcesContent": [
+        "<template>\n    <body>\n    <Card>\n        <template #title>\n            <h1>Profile</h1>\n        </template>\n        <template #content>\n          <table class=\"profile-table\">\n            <tr>\n              <th>Email:</th>\n              <td>{{user_info.email}}</td>\n            </tr>\n            <tr>\n              <th>Username:</th>\n              <td>{{user_info.username}}</td>\n            </tr>\n            <tr>\n              <th>Full Name:</th>\n              <td>{{user_info.full_name}}</td>\n            </tr>\n            <tr>\n              <th>Bio:</th>\n              <td>{{user_info.bio}}</td>\n            </tr>\n            <tr>\n              <th>Birth Date:</th>\n              <td>{{user_info.birth_date}}</td>\n            </tr>\n          </table>\n        </template>\n    </Card>\n  </body>\n</template>\n\n<script>\nimport {getAPI} from '../backend_api'\nimport Card from 'primevue/card'\n\nexport default {\n  components: {\n    Card,\n  },\n  data () {\n    return {\n      user_info: \"\",\n    }\n  },\n  \n  mounted (){\n    this.get_UserInfor();\n  },\n\n  methods: {\n    get_UserInfor () {\n        getAPI('/api/user/',\n        { headers: { Authorization: `Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjU1NzE4MTI2LCJpYXQiOjE2NTU3MTc4MjYsImp0aSI6ImE3ODBkMDk4ZGQ5NTQ1YTNhN2Q2MWRiYTFkYjI1MjY5IiwidXNlcl9pZCI6IjA0YzMxZmRkLWE0ZmItNGE2MC1iYTgyLTFjNDA2YTg4MTFmYyJ9.A5WRL6BXHEs6Q69BcXJXvFQJFMxMLKhPc6wm7oW8NGs` } })\n      .then(response => this.user_info = response.data)\n    }\n  }\n}\n\n</script>\n\n<style scoped>\ntable th {\n  text-align: left;\n  width: 100px;\n}\n</style>"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "07ec8d7d31b32bb8de6f5ee4fb27e8eb1a964578"
+  },
+  "/home/rlllok/Documents/django_vue/blog_frontend/src/views/CreatePostView.vue": {
+    "path": "/home/rlllok/Documents/django_vue/blog_frontend/src/views/CreatePostView.vue",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 17,
+          "column": 8
+        },
+        "end": {
+          "line": 20,
+          "column": 9
+        }
+      },
+      "1": {
+        "start": {
+          "line": 24,
+          "column": 12
+        },
+        "end": {
+          "line": 32,
+          "column": 14
+        }
+      },
+      "2": {
+        "start": {
+          "line": 28,
+          "column": 16
+        },
+        "end": {
+          "line": 28,
+          "column": 43
+        }
+      },
+      "3": {
+        "start": {
+          "line": 29,
+          "column": 16
+        },
+        "end": {
+          "line": 29,
+          "column": 49
+        }
+      },
+      "4": {
+        "start": {
+          "line": 31,
+          "column": 16
+        },
+        "end": {
+          "line": 31,
+          "column": 34
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 4
+          },
+          "end": {
+            "line": 16,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 11
+          },
+          "end": {
+            "line": 21,
+            "column": 5
+          }
+        },
+        "line": 16
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 23,
+            "column": 8
+          },
+          "end": {
+            "line": 23,
+            "column": 9
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 23
+          },
+          "end": {
+            "line": 33,
+            "column": 9
+          }
+        },
+        "line": 23
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 27,
+            "column": 94
+          },
+          "end": {
+            "line": 27,
+            "column": 95
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 27,
+            "column": 106
+          },
+          "end": {
+            "line": 30,
+            "column": 13
+          }
+        },
+        "line": 27
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 30,
+            "column": 21
+          },
+          "end": {
+            "line": 30,
+            "column": 22
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 30
+          },
+          "end": {
+            "line": 32,
+            "column": 13
+          }
+        },
+        "line": 30
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 54,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    "f": {
+      "0": 54,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "/home/rlllok/Documents/django_vue/blog_frontend/src/views/CreatePostView.vue"
+      ],
+      "names": [],
+      "mappings": "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",
+      "file": "/home/rlllok/Documents/django_vue/blog_frontend/src/views/CreatePostView.vue",
+      "sourceRoot": "",
+      "sourcesContent": [
+        "<template>\n    <body>\n        <Card>\n            <template #title>\n                <h1>New Post</h1>\n            </template>\n            <template #content>\n                <p v-if=\"error_text\">{{error_text}}</p>\n                <form class=\"createpost-form\">\n                    <div>\n                        <InputText class=\"title\" type=\"title\" placeholder=\"Title\" required v-model=\"title\" style=\"margin-bottom: .5em\"/>\n                    </div>\n                    <div>\n                        <Textarea class=\"content\" type=\"text\" placeholder=\"Content\" required v-model=\"content\"/>\n                    </div>\n                <div class=\"submit\">\n                    <Button label=\"Create New Post\" icon=\"pi pi-plus\" style=\"margin-top: .5em\" @click=\"handleSubmit\"/>\n                </div>\n                </form>\n            </template>\n        </Card>\n    </body>\n</template>\n\n\n<script>\nimport {getAPI} from '../backend_api'\nimport InputText from 'primevue/inputtext'\nimport Textarea from 'primevue/textarea'\nimport Card from 'primevue/card'\nimport Button from 'primevue/button'\n\nexport default {\n\n    components: {\n        InputText,\n        Textarea,\n        Card,\n        Button,\n    },\n    data() {\n        return {\n            title: \"\",\n            content: \"\",\n        }\n    },\n    methods: {\n        handleSubmit() {\n            getAPI.post('/posts/', {\n                title: this.title,\n                content: this.content\n            },{ headers: { Authorization: `Bearer ${this.$store.state.accessToken}` } }).then(response => {\n                console.log(response.data);\n                this.$router.push({name: \"Home\"})\n            }).catch(error => {\n                console.log(error)\n            })\n        }\n    }\n}\n</script>\n\n\n<style lang=\"scss\" scoped>\n.content {\n    height: 15em;\n    width: 75%;\n}\n</style>"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "6a43f508b91dfb95e8f722ce750b11ed6b43a802"
+  },
+  "/home/rlllok/Documents/django_vue/blog_frontend/src/views/NotFoundView.vue": {
+    "path": "/home/rlllok/Documents/django_vue/blog_frontend/src/views/NotFoundView.vue",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 32
+        },
+        "end": {
+          "line": 3,
+          "column": 88
+        }
+      },
+      "1": {
+        "start": {
+          "line": 4,
+          "column": 32
+        },
+        "end": {
+          "line": 4,
+          "column": 99
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 2
+        },
+        "end": {
+          "line": 10,
+          "column": 31
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "render",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 16
+          },
+          "end": {
+            "line": 6,
+            "column": 22
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 37
+          },
+          "end": {
+            "line": 11,
+            "column": 1
+          }
+        },
+        "line": 6
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 438,
+      "1": 438,
+      "2": 34
+    },
+    "f": {
+      "0": 34
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "sources": [
+        "/home/rlllok/Documents/django_vue/blog_frontend/src/views/NotFoundView.vue"
+      ],
+      "names": [],
+      "mappings": ";;gCACE,oBAAY,YAAR,KAAG;gCACP,oBAAuB,YAAnB,gBAAc;;;;IADlB,UAAY;IACZ,UAAuB",
+      "file": "/home/rlllok/Documents/django_vue/blog_frontend/src/views/NotFoundView.vue",
+      "sourceRoot": "",
+      "sourcesContent": [
+        "<template>\n  <h2>404</h2>\n  <h3>Page not found</h3>\n</template>"
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "11ab86be88aac96438248eb28bec821ccfcc6016"
+  },
+  "/home/rlllok/Documents/django_vue/blog_frontend/src/router/index.js": {
+    "path": "/home/rlllok/Documents/django_vue/blog_frontend/src/router/index.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 13,
+          "column": 15
+        },
+        "end": {
+          "line": 59,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 61,
+          "column": 15
+        },
+        "end": {
+          "line": 64,
+          "column": 2
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 438,
+      "1": 438
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "021e45d3dc450b6f417adf17f9d153803622fc57"
+  },
+  "/home/rlllok/Documents/django_vue/blog_frontend/src/store.js": {
+    "path": "/home/rlllok/Documents/django_vue/blog_frontend/src/store.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 6,
+          "column": 14
+        },
+        "end": {
+          "line": 48,
+          "column": 2
+        }
+      },
+      "1": {
+        "start": {
+          "line": 14,
+          "column": 12
+        },
+        "end": {
+          "line": 14,
+          "column": 38
+        }
+      },
+      "2": {
+        "start": {
+          "line": 15,
+          "column": 12
+        },
+        "end": {
+          "line": 15,
+          "column": 40
+        }
+      },
+      "3": {
+        "start": {
+          "line": 16,
+          "column": 12
+        },
+        "end": {
+          "line": 16,
+          "column": 37
+        }
+      },
+      "4": {
+        "start": {
+          "line": 19,
+          "column": 12
+        },
+        "end": {
+          "line": 19,
+          "column": 36
+        }
+      },
+      "5": {
+        "start": {
+          "line": 20,
+          "column": 12
+        },
+        "end": {
+          "line": 20,
+          "column": 37
+        }
+      },
+      "6": {
+        "start": {
+          "line": 25,
+          "column": 12
+        },
+        "end": {
+          "line": 25,
+          "column": 44
+        }
+      },
+      "7": {
+        "start": {
+          "line": 30,
+          "column": 12
+        },
+        "end": {
+          "line": 40,
+          "column": 14
+        }
+      },
+      "8": {
+        "start": {
+          "line": 31,
+          "column": 16
+        },
+        "end": {
+          "line": 39,
+          "column": 18
+        }
+      },
+      "9": {
+        "start": {
+          "line": 35,
+          "column": 20
+        },
+        "end": {
+          "line": 35,
+          "column": 164
+        }
+      },
+      "10": {
+        "start": {
+          "line": 36,
+          "column": 20
+        },
+        "end": {
+          "line": 36,
+          "column": 29
+        }
+      },
+      "11": {
+        "start": {
+          "line": 38,
+          "column": 20
+        },
+        "end": {
+          "line": 38,
+          "column": 31
+        }
+      },
+      "12": {
+        "start": {
+          "line": 43,
+          "column": 12
+        },
+        "end": {
+          "line": 45,
+          "column": 13
+        }
+      },
+      "13": {
+        "start": {
+          "line": 44,
+          "column": 16
+        },
+        "end": {
+          "line": 44,
+          "column": 46
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 8
+          },
+          "end": {
+            "line": 13,
+            "column": 9
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 59
+          },
+          "end": {
+            "line": 17,
+            "column": 9
+          }
+        },
+        "line": 13
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 18,
+            "column": 8
+          },
+          "end": {
+            "line": 18,
+            "column": 9
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 29
+          },
+          "end": {
+            "line": 21,
+            "column": 9
+          }
+        },
+        "line": 18
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 24,
+            "column": 8
+          },
+          "end": {
+            "line": 24,
+            "column": 9
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 25
+          },
+          "end": {
+            "line": 26,
+            "column": 9
+          }
+        },
+        "line": 24
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 29,
+            "column": 8
+          },
+          "end": {
+            "line": 29,
+            "column": 9
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 29,
+            "column": 45
+          },
+          "end": {
+            "line": 41,
+            "column": 9
+          }
+        },
+        "line": 29
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 30,
+            "column": 31
+          },
+          "end": {
+            "line": 30,
+            "column": 32
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 52
+          },
+          "end": {
+            "line": 40,
+            "column": 13
+          }
+        },
+        "line": 30
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 34,
+            "column": 24
+          },
+          "end": {
+            "line": 34,
+            "column": 25
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 34,
+            "column": 36
+          },
+          "end": {
+            "line": 37,
+            "column": 17
+          }
+        },
+        "line": 34
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 37,
+            "column": 25
+          },
+          "end": {
+            "line": 37,
+            "column": 26
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 37,
+            "column": 32
+          },
+          "end": {
+            "line": 39,
+            "column": 17
+          }
+        },
+        "line": 37
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": {
+            "line": 42,
+            "column": 8
+          },
+          "end": {
+            "line": 42,
+            "column": 9
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 42,
+            "column": 29
+          },
+          "end": {
+            "line": 46,
+            "column": 9
+          }
+        },
+        "line": 42
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 43,
+            "column": 12
+          },
+          "end": {
+            "line": 45,
+            "column": 13
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 43,
+              "column": 12
+            },
+            "end": {
+              "line": 45,
+              "column": 13
+            }
+          },
+          {
+            "start": {},
+            "end": {}
+          }
+        ],
+        "line": 43
+      }
+    },
+    "s": {
+      "0": 438,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 4684,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 18,
+      "13": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 0,
+      "2": 4684,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 18
+    },
+    "b": {
+      "0": [
+        0,
+        18
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "e858ef4918da7e52e5d69fe5593a11f08db02c3f"
+  },
+  "/home/rlllok/Documents/django_vue/blog_frontend/src/main.js": {
+    "path": "/home/rlllok/Documents/django_vue/blog_frontend/src/main.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 11,
+          "column": 12
+        },
+        "end": {
+          "line": 11,
+          "column": 26
+        }
+      },
+      "1": {
+        "start": {
+          "line": 12,
+          "column": 0
+        },
+        "end": {
+          "line": 12,
+          "column": 17
+        }
+      },
+      "2": {
+        "start": {
+          "line": 13,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 15
+        }
+      },
+      "3": {
+        "start": {
+          "line": 14,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 14
+        }
+      },
+      "4": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+          "column": 17
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 438,
+      "1": 438,
+      "2": 438,
+      "3": 438,
+      "4": 438
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "5b252f8a6fe7edf5a152b4913e453123ed63df91"
+  }
+}
